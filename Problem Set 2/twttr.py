@@ -6,7 +6,6 @@ def shorten(a):
     for alphabet in a:
         if alphabet.upper() not in li:
             print(alphabet, end="")
-        else:
 
 def main():
     x=get_string()
